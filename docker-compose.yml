@@ -1,0 +1,10 @@
+version: '3'
+services:
+  :
+    build: /root/docker_demo/nginx/
+    ports:
+      - "80:80"
+    links:
+      - php:php
+    volumes:
+      - "/www:/usr/local/nginx/html"
