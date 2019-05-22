@@ -4,3 +4,4 @@ configservice:    9001
 authenticationservice : 9002
 account :     9011
 eurakaClientA : 9003
+gatewayService : 9040
